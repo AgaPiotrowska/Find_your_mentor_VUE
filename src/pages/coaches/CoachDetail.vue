@@ -32,7 +32,7 @@
       },
       computed: {
         fullName() {
-          return this.selectedCoach.firstName + '' + this.selectedCoach.firstName;
+          return this.selectedCoach.firstName + ' ' + this.selectedCoach.lastName;
         },
         areas() {
           return this.selectedCoach.areas;

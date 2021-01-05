@@ -19,7 +19,7 @@
       props: ['id', 'firstName', 'lastName', 'rate', 'areas'],
       computed: {
         fullName() {
-          return this.firstName + '' + this.lastName;
+          return this.firstName + ' ' + this.lastName;
         },
         coachContactLink() {
           return this.$route.path + '/' + this.id + '/contact/'
