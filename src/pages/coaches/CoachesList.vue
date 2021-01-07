@@ -1,4 +1,5 @@
 <template>
+    <div>
     <base-dialog :show="!!error"
                  title="An error occured"
                 @close="handleError">
@@ -30,6 +31,7 @@
         <h3 v-else>No mentors found</h3>
         </base-card>
     </section>
+    </div>
 </template>
 
 <script>
